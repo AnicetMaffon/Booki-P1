@@ -123,7 +123,7 @@ table {
   border-spacing: 0;
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap");
 
 /* General */
 
@@ -266,13 +266,14 @@ nav li a:hover {
   margin-bottom: 40px;
 }
 .filter {
+  flex-shrink: 1;
   align-items: center;
-  height: 25px;
+  height: 48px;
   border: 2px solid #f2f2f2;
   border-left: none;
   margin-bottom: 20px;
   padding-right: 20px;
-  border-radius: 25px;
+  border-radius: 35px;
   margin-right: 25px;
 }
 .filter span {
